@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  eda:
+    build: .
+    container_name: heart_eda
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
